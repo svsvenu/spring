@@ -1,5 +1,8 @@
 package com.training.spring;
 
+import javax.inject.Named;
+
+@Named
 public class MathUtilCoolImpl implements MathUtil {
 
 	public Integer add(Integer a, Integer b) throws Exception {

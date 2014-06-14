@@ -50,14 +50,16 @@ public void setMathUtil(MathUtil mathUtil) {
 		*/
 		
     	ApplicationContext context = new ClassPathXmlApplicationContext("/spring-beans.xml");
+    	
+    	for (String beanName : context.getBeanDefinitionNames()) {
+        	
+    		log.info("Bean name is " + beanName);
+    	
+    	}
     	  	
     	MathUtil mathUtil = (MathUtil)context.getBean("mathUtilImpl");
     	
-    	for (String beanName : context.getBeanDefinitionNames()) {
-    	
-    		log.info(beanName);
-    	
-    	}
+    
     	  	
     }
 	
