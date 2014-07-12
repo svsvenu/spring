@@ -13,7 +13,7 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
 @Named
- @Aspect
+@Aspect
 public class LoggingAspect {
 
 

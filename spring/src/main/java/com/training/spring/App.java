@@ -32,6 +32,10 @@ public void setMathUtil(MathUtil mathUtil) {
     {
 		
 	/*	MathUtil venuMathUtil;
+		
+		MathUtilCoolImpl venuMathUtilCoolImpl;
+		
+		MathUtilImpl venuMathUtilImpl;
 
 		venuMathUtil = new MathUtilImpl();
 		
@@ -46,8 +50,8 @@ public void setMathUtil(MathUtil mathUtil) {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
-		*/
+		}*/
+		
 		
     	ApplicationContext context = new ClassPathXmlApplicationContext("/spring-beans.xml");
     	
